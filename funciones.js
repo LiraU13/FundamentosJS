@@ -79,4 +79,5 @@ const welcomeToUtt = (user = 'Invitado', city = 'México') => {
 
 welcomeToUtt();
 welcomeToUtt('Bruce Wayne', 'Gotham');
+// Solo funciona sí los parametros se colocan en orden, el que se utilizará primero al último. 
 welcomeToUtt(user = 'Superman', city = 'Metropolis');
