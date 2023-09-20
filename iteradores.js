@@ -42,7 +42,9 @@ console.log(squares);
 // filter()
 // crea un array nuevo a partir de una condición
 console.log('* '.repeat(15) + 'Filter');
-const startsWithA = fruits.filter(fruit => fruit.endsWith('e'));
+const startsWithA = fruits.filter(
+    fruit => fruit.endsWith('e')
+);
 console.log(fruits);
 console.log(startsWithA);
 
